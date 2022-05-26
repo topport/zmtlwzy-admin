@@ -1,0 +1,15 @@
+@import './easing.less';
+
+@namespace: zmtlwzy;
+
+// tabs
+@multiple-height: 30px;
+
+// headers
+@header-height: 48px;
+
+.bem(@n; @content) {
+  @{namespace}-@{n} {
+    @content();
+  }
+}
